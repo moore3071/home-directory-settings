@@ -21,6 +21,3 @@ PS1='[\u@\h \W]\$ '
 #path extension
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 export GEM_HOME=$(ruby -e 'print Gem.user_dir')
-
-#colorized git
-source /usr/share/git/completion/git-prompt.sh
