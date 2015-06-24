@@ -5,3 +5,6 @@
 !.vimperatorrc
 !.vimrc
 !.gitignore
+!.config
+!.config/dunst
+!.config/dunst/dunstrc
