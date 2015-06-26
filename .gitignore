@@ -8,5 +8,7 @@
 !.config
 !.config/dunst
 !.config/dunst/dunstrc
+!.config/termite
+!.config/termite/config
 !.i3
 !.i3/config

@@ -1,0 +1,8 @@
+[options]
+clickable_url = true
+browser = firefox
+
+[colors]
+background = #000000
+foreground = #00FF00
+foreground = #10FF10
