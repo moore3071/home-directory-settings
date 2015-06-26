@@ -8,3 +8,5 @@
 !.config
 !.config/dunst
 !.config/dunst/dunstrc
+!.i3
+!.i3/config
