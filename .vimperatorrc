@@ -6,3 +6,15 @@ source! /home/bam/.vimperatorrc.local
 
 " Ctrl-a
 inoremap <C-a> <C-Home><C-S-End>
+
+map <silent> <C-F8> :js toggle_bottombar()<CR>
+
+:js << EOF
+function toggle_bottombar() {
+  var bb = document.getElementById('liberator-bottombar');
+  if (!bb)
+    return;
+  bb.style.height = (bb.style.height == '') ? '0px' : '';
+  bb.style.overflow = (bb.style.height == '') ? '' : 'hidden';
+}
+EOF
