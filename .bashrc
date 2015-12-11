@@ -21,6 +21,5 @@ alias ls='ls --color=auto'
 PS1='\[\e[0;92m\][\u@\h \W]\$\[\e[0m\] '
 #PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
 
-#path extension
-PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
-export GEM_HOME=$(ruby -e 'print Gem.user_dir')
+export EDITOR=vim
+
