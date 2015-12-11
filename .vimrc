@@ -14,7 +14,7 @@ filetype plugin indent on    " required
 
 """Folding options
 set foldmethod=syntax
-set foldlevelstart=1
+set foldlevelstart=20
 
 let javaScript_fold=1
 let perl_fold=1
