@@ -20,6 +20,6 @@ alias open='xdg-open'
 alias ls='ls --color=auto'
 PS1='\[\e[0;92m\][\u@\h \W]\$\[\e[0m\] '
 #PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
-
+PATH=$PATH:$(ruby -rubygems -e "puts Gem.user_dir")/bin:/root/.gem/ruby/2.2.0/bin 
 export EDITOR=vim
 
