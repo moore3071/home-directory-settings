@@ -24,4 +24,8 @@ case "$1" in
 	2)
 		setxkbmap us -variant colemak
 		echo "Set keyboard to colemak";;
+	*)
+		echo >&2 \
+		"usage: $0 num"
+		exit 1;;
 esac
