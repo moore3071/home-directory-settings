@@ -1,3 +1,5 @@
+#!/bin/sh
+
 vflag=off
 while getopts ":h" opt
 do
